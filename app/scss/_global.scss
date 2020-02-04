@@ -1,0 +1,52 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing:inherit;
+}
+
+body{
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 24px;
+ color: #939190;
+ font-family: "Arial";
+ overflow-x: hidden;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn{
+  padding: 20px 45px;
+  background-color: #f1cdb3;
+  color: #403b37;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Georgia";
+  border: none;
+  border-radius: 50px;
+}

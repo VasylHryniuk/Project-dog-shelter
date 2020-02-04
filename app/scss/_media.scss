@@ -1,0 +1,312 @@
+@media (max-width: 1380px) {
+  // .header-main {
+  //   padding-top: 100px;
+  // }
+
+  .shelter-donation {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1155px) {
+  .pets-slider__wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 420px;
+
+    .slick-prev {
+      position: absolute;
+      left: -110px;
+      bottom: 100px;
+      z-index: 100;
+    }
+
+    .slick-next {
+      position: absolute;
+      right: -110px;
+      bottom: 100px;
+      z-index: 100;
+    }
+  }
+}
+
+@media(max-width:1127px){
+  .footer{
+    padding: 30px;
+  }
+}
+
+@media(max-width:1050px){
+  .shelter-donation__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    .shelter-donation__img{
+      margin-right: 0;
+    }
+  }
+}
+
+@media(max-width: 1024px) {
+  .header-main {
+    max-width: 325px;
+  }
+}
+
+@media(max-width:930px){
+  .footer-wrapper{
+  .footer-wrapper__block{
+    margin-right: 100px;
+  }
+}
+}
+
+
+@media(max-width:850px) {
+  .shelter-help {
+    padding: 20px 0;
+    background-color: #fafafa;
+  }
+
+  .shelter-donation{
+    padding: 20px;
+  }
+
+  .footer{
+    background-image: url(../img/footerAdaptive.jpg);
+  }
+  .footer-wrapper{
+    justify-content: center;
+  }
+}
+
+
+
+@media(max-width:775px) {
+
+  //info
+  .info {
+    padding: 30px;
+    background-color: #fafafa;
+
+    .info-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .info-wrapper__photo {
+        margin-right: 0;
+      }
+    }
+  }
+}
+  //end info
+
+  @media screen and (max-width:765px) {
+    .container {
+      padding: 0px;
+    }
+     .header{
+    background-image: url(../img/header-bg.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        .header-main{
+          padding-top: 400px;
+          justify-content: center;
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+
+    .menu {
+      height: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      transition: .3s linear;
+      
+      li{
+        display: flex;
+      align-self: center;
+      width: 95%;
+      opacity: 0;
+      visibility: hidden;
+      a{
+        width: 95%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        border-bottom: none;
+        transition: all .2s linear;
+        &:hover{
+          border-bottom: none;
+        }
+      }
+      }
+    }
+
+    .header-top {
+      position: absolute;
+      flex-direction: column;
+      padding: 10px 0px 0px;
+      width: 100%;
+      background-color: #282220;
+      z-index: 10;
+    }
+
+    .header-nav {
+      width: 100%;
+    }
+
+   
+
+    .toogle {
+      clear: both;
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      line-height: 40px;
+      width: 100%;
+      color: #000;
+      background: #fff;
+      transition: all .1s linear;
+
+      &:hover {
+        background-color: #d3a900;
+      }
+    }
+
+    #checkbox-menu:checked+label .touch li {
+      opacity: 1;
+      visibility: visible;
+      transition: all .7s linear;
+    }
+
+    #checkbox-menu:checked+label .touch {
+      height: 200px;
+    }
+
+    
+
+    .header-top.fixed{
+      padding: 10px 0 0 0;
+      a{
+        &:hover{
+          color: #d3a900;
+        }
+      }
+    }
+
+  }
+
+  @media(max-width: 730px){
+    .footer-wrapper{
+      flex-direction: column;
+      margin: 0 auto;
+      .footer-wrapper__block{
+        margin: 0 auto;
+      }
+    }
+  }
+  
+
+
+
+
+  @media(max-width:710px) {
+    .shelter-help__top-header {
+      padding: 0;
+      .shelter-help__wrapper {
+        padding-top: 40px;
+        width: 35%;
+        padding-left: 0;
+        padding-right: 0;
+        p{
+          font-size: 15px;
+        }
+      }
+    }
+
+    .shelter-help__down-header {
+      padding: 0;
+      .shelter-help__wrapper {
+        width: 50%;
+        padding-left: 0;
+        padding-right: 0;
+        p{
+          font-size: 15px;
+        }
+      }
+    }
+
+    //pets
+    .pets-title {
+      text-align: center;
+      padding: 15px;
+    }
+
+    .pets-slider__btn-footer {
+      padding: 50px;
+      text-align: center;
+      color: #292929;
+    }
+  }
+
+ 
+
+
+  @media(max-width:520px){
+    .shelter-donation__img{
+      display: none;
+    }
+  }
+
+  @media(max-width:460px) {
+    .pets-slider__block-btn {
+      .btn {
+        font-size: 15px;
+        padding: 15px 19px;
+      }
+    }
+
+    .pets-slider__btn-footer {
+      padding: 50px;
+      text-align: center;
+      color: #292929;
+
+      .btn {
+        font-size: 15px;
+        padding: 20px 19px;
+      }
+    }
+  }
+
+
+@media(max-width:460px){
+  .shelter-donation__block-info{
+    h2{
+      font-size: 20px;
+    } 
+  }
+}
+
+@media(max-width:430px){
+  .top-header{
+    justify-content: center;
+  }
+}
+
+@media(max-width:340px){
+  .shelter-donation__wrapper .shelter-donation__block-info .shelter-donation__btn a {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: #403b37;
+}
+}
